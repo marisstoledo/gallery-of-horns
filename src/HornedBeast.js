@@ -6,8 +6,11 @@ render(){
     return (
     <div>
     <h2> Beast Title coming soon...</h2>
-    <img src='https://via.placeholder.com/150' alt='alt coming soon...' title='title coming soon...' style={{ width: "20%" }} />
-<p>Beast Description coming soon</p>
+    <img src='https://via.placeholder.com/150' 
+    alt='alt coming soon...' 
+    title='title coming soon...' 
+    style={{ width: "20%" }} />
+<p>this.props.BeastObj.title</p>
 </div>
 );
  }
