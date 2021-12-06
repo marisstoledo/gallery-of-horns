@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Header';
 import Main from './Main';
 import HornedBeast from './HornedBeast.js';
-import Footer from './Footer';
+//import Footer from './Footer';
 
 
 
@@ -17,7 +17,7 @@ class App extends React.Component {
         <Header />
         <Main />
         <HornedBeast />
-        <Footer />
+    {/* <Footer /> */}
       </div>
     );
   }

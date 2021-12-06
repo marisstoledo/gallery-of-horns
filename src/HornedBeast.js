@@ -1,17 +1,19 @@
 
 import React from 'react';
-class HornedBeast extends React.Component{
+ import Card from 'react-bootstrap/Card';
+
+    class HornedBeast extends React.Component{
 
 render(){ 
     return (
-    <div>
-    <h2> Beast Title coming soon...</h2>
-    <img src='https://via.placeholder.com/150' 
+    <card>
+    <Card.Title> Beast Title coming soon...</Card.Title>
+    <Card.Img src='https://via.placeholder.com/150' 
     alt='alt coming soon...' 
     title='title coming soon...' 
     style={{ width: "20%" }} />
-<p>this.props.BeastObj.title</p>
-</div>
+<Card.Text>this.props.BeastObj.title</Card.Text>
+</card>
 );
  }
 }
