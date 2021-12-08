@@ -13,7 +13,6 @@ class App extends React.Component {
   
     return (
       <div className="App">
-        <h1> Proof of Life!</h1>
         <Header />
         <Main />
         {/* <HornedBeast /> */}
