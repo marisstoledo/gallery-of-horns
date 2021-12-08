@@ -16,7 +16,7 @@ class App extends React.Component {
         <h1> Proof of Life!</h1>
         <Header />
         <Main />
-        <HornedBeast />
+        {/* <HornedBeast /> */}
     {/* <Footer /> */}
       </div>
     );
