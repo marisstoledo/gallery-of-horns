@@ -1,4 +1,12 @@
 .App {
   text-align: center;
+  border: 30px solid cornflowerblue;
+  padding: 30px;
+  color:darkolivegreen;
+  background-color: khaki;
+}
+
+.beast{
+  border: 5px solid lightseagreen;
 }
 
