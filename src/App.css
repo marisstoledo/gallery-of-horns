@@ -2,11 +2,36 @@
   text-align: center;
   border: 30px solid cornflowerblue;
   padding: 30px;
-  color:darkolivegreen;
+  color:black;
   background-color: khaki;
+  font-family: 'Copperplate';
 }
 
 .beast{
   border: 5px solid lightseagreen;
+  padding: 20px;
+  color: lightslategrey;
+  background-color: lavenderblush;
+  border-radius: 25 px;
+  font-weight: bold;
 }
 
+.beastImg {
+border: 5px solid lavender;
+border-radius:  25px;
+
+}
+
+.header {
+  font-size: 75px;
+  text-shadow: 3px 5px beige;
+
+}
+ .fire {
+   font-size: 20px;
+   color: royalblue
+ }
+
+ .beastDescription {
+   margin-top: 15px;
+ }
