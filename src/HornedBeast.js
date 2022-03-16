@@ -1,33 +1,32 @@
-
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
-    class HornedBeast extends React.Component{
+class HornedBeast extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             favorites: 0
         }
-    };
+    }
 
     addFavorites = () => {
-        this.setState({favorites: this.state.favorites + 1});
-    };
+        this.setState({ favorites: this.state.favorites + 1 });
+    }
 
-render(){ 
-    return (
-        <Card className="beast" onClick={this.addFavorites}>
-    <Card.Title>{this.props.beastObj.title}</Card.Title>
-    <Card.Img 
-    src= {this.props.beastObj.image_url} 
-    alt={this.props.beastObj.description} 
-    title= {this.props.beastObj.title}
-   // style={{ width: "20%" }} 
-   />
-<Card.Text>{this.props.beastObj.description}</Card.Text>
-<Card.Text>🔥 = {this.state.favorites}</Card.Text>
-</Card>
-);
- }
+    render() {
+        return (
+            <Card className="beast" style={{ width: "18rem" }} onClick={this.addFavorites}>
+                <Card.Title>{this.props.beast.title}</Card.Title>
+                <Card.Img
+                    className="beastImg"
+                    src={this.props.beast.image_url}
+                    alt={this.props.beast.description}
+                    title={this.props.beast.title}
+                />
+                <Card.Text className="beastDescription">{this.props.beast.description}</Card.Text>
+                <Card.Text className="fire">🔥 = {this.state.favorites}</Card.Text>
+            </Card>
+        );
+    }
 }
 export default HornedBeast;
